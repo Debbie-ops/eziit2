@@ -16,7 +16,7 @@ export default function Hero() {
       <BackgroundImage />
       <HeroWrapper>
         <Contents>
-          <CustomOverTitle>the coolest, fintech product you have ever seen</CustomOverTitle>
+          <CustomOverTitle style={{ fontSize: '2.0rem' }}>the eziit revolution</CustomOverTitle>
           <Heading>Make your life easier with Eziit</Heading>
           <Description>
           Building a world where financial constraints never prevent access to essential goods and services, creating a more equitable marketplace for consumers and businesses alike.

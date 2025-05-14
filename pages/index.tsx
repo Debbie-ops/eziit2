@@ -29,7 +29,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <Hero />
           <Partners />
           <section id="about">
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Buy now pay later" overTitle="eziit">
+          <BasicSection imageUrl="/demo-illustration-1.svg" title="Buy now, pay later at Zero interest" overTitle="eziit">
             <p>
             Eziit is a credit platform that empowers you to shop for everyday essentials without the burden of interest or hidden fees. {' '}
               {/*<Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link>*/} Lorem ipsum, dolor sit amet

@@ -25,6 +25,8 @@ const navItems: NavItems = [
   { title: 'About', href: '/#about' },
   { title: 'Features', href: '/#features' },
   { title: 'Contact', href: '/contact' },
+  { title: 'How it works', href: '/howitworks' },
+
   //{ title: 'Sign up', href: '/sign-up', outlined: true },
 ];
 

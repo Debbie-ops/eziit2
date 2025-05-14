@@ -25,35 +25,18 @@ export default function Cta() {
               </Button>
             </NextLink>
             
-            {/*<NextLink href="#whitepaper" passHref legacyBehavior>
-              <OutlinedButton transparent>
-                Features <span>&rarr;</span>
-              </OutlinedButton>
-            </NextLink>*/}
+            
           </ButtonGroup>
         </Stack>
         
-        {/* Properly wrapped SVG */}
+     
         
       </Container>
     </CtaWrapper>
   );
 }
 
-{/* SVG as a separate component
-function CreditCardSVG() {
-  return (
-    <svg width="300" height="180" viewBox="0 0 300 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="10" y="10" width="280" height="160" rx="12" fill="#1A237E"/>
-      <path d="M10 10H290V50H10V10Z" fill="white" fillOpacity="0.1"/>
-      <rect x="30" y="70" width="40" height="30" rx="4" fill="#FFD600"/>
-      <rect x="30" y="110" width="240" height="20" rx="4" fill="#E8EAF6" fillOpacity="0.8"/>
-      <circle cx="250" cy="140" r="15" fill="#1565C0"/>
-      <text x="250" y="145" fontFamily="Arial" fontSize="12" fill="white" textAnchor="middle">VISA</text>
-      <path d="M150 40L170 60M170 60L150 80M170 60H230" stroke="#00C853" strokeWidth="3" strokeLinecap="round"/>
-    </svg>
-  );
-}*/}
+
 
 const Description = styled.div`
   font-size: 1.8rem;
